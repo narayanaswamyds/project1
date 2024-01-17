@@ -1,3 +1,4 @@
+#!/bin/bash
 
 
 # Define the container name
