@@ -11,7 +11,8 @@ pipeline {
         stage('Build and Deploy') {
             steps {
                 // Call the shell script
-               sudo sh './start.sh'
+                chmod +x ./start.sh
+                sh './start.sh'
             }
         }
     }
