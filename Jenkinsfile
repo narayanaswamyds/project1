@@ -11,7 +11,7 @@ pipeline {
         stage('Build and Deploy') {
             steps {
                 // Call the shell script
-                chmod +x ./start.sh
+                sh "chmod +x ./start.sh"
                 sh './start.sh'
             }
         }
