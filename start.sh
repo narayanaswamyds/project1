@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 # Define the container name
 CONTAINER_NAME="my_node_app"
